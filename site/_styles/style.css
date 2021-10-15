@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --color-principal-light: #427a91;
+    --color-principal: #074E63;
+    --color-principal-dark: #002639;
+    
+    
+    --color-secundary-light: #e94b5d;
+    --color-secundary-dark: #7a000f;
+    --color-secundary-3: #B10333;
+
+    --color-text: #ffffff ;
+    
+}
