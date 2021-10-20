@@ -26,22 +26,39 @@
 body{
     font-family: var(--font-principal);
 }
+
+/*HEADER*/
 header{
     background-color: var(--color-principal);
     height: 144px;
 }
+#top-header{
+    
+}
+#logo{
+    margin: 13px 21px;
+}
+nav{
+    border-top: solid 1px var(--color-text);
+    padding: 13px 21px;
+    position: relative;
+    background-color: var(--color-principal);
+}
+
+
 ul#menu-principal > li{
-    display: inline;
+    display: inline-block;
     list-style: none;
+    margin-right: 1.5%;
 }
 
 ul#menu-principal li a{
     text-decoration: none;
     color: var(--color-text);
-    
+    font: normal 1.1em var(--font-principal);
 }
 
-
+/*FOOTER*/
 footer{
     background-color: var(--color-principal);
     color: var(--color-text);
