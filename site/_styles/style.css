@@ -6,6 +6,7 @@
 }
 
 :root{
+    /*CORES*/
     --color-principal-light: #427a91;
     --color-principal: #074E63;
     --color-principal-dark: #002639;
@@ -16,5 +17,36 @@
     --color-secundary-3: #B10333;
 
     --color-text: #ffffff ;
+
+    /*FONTES*/
+    --font-principal: roboto, sans-serif;
     
+}
+
+body{
+    font-family: var(--font-principal);
+}
+header{
+    background-color: var(--color-principal);
+    height: 144px;
+}
+ul#menu-principal > li{
+    display: inline;
+    list-style: none;
+}
+
+ul#menu-principal li a{
+    text-decoration: none;
+    color: var(--color-text);
+    
+}
+
+
+footer{
+    background-color: var(--color-principal);
+    color: var(--color-text);
+    font: bold 1em  var(--font-principal);
+    text-align: center;
+    padding: 8px;
+    margin: 21px 0px;
 }
