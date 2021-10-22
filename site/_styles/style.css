@@ -30,32 +30,41 @@ body{
 /*HEADER*/
 header{
     background-color: var(--color-principal);
-    height: 144px;
 }
-#top-header{
-    
-}
+
 #logo{
     margin: 13px 21px;
+    width: 110px;
 }
 nav{
     border-top: solid 1px var(--color-text);
-    padding: 13px 21px;
+    padding: 0px 21px;
     position: relative;
-    background-color: var(--color-principal);
 }
 
 
 ul#menu-principal > li{
     display: inline-block;
     list-style: none;
-    margin-right: 1.5%;
+    padding: 13px;
+    
+    
 }
 
 ul#menu-principal li a{
     text-decoration: none;
     color: var(--color-text);
     font: normal 1.1em var(--font-principal);
+    
+    
+}
+
+ul#menu-principal li:hover{
+    border-bottom: solid 5px var(--color-text);
+}
+
+#aba-atual{
+    border-bottom: solid 5px var(--color-text);
 }
 
 /*FOOTER*/
