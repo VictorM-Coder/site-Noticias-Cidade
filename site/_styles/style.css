@@ -72,25 +72,32 @@ ul#menu-principal li:hover{
 /*MAIN*/
 main{
     background-color: burlywood;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
-div#menu-entrevistas{
+aside#menu-entrevistas{
     background-color: white;
     display: inline-block;
     margin: 21px;
+    width: 170px;
 }
 
-div#menu-entrevistas ul{
-    padding: 5px 13px;
-}
-
-div#menu-entrevistas li{
-    padding: 5px;
+aside#menu-entrevistas li{
+    padding: 8px 13px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.281);
-
 }
+
+aside#menu-entrevistas a{
+    color: #000;
+    font-size: 0.9em;
+}
+
+aside#menu-entrevistas li:hover{
+    background-color: var(--color-principal-light);
+    color: var(--color-text);
+}
+
 h2{
     font: bold 1.2em var(--font-principal);
     text-align: center;
