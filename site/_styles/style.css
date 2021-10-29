@@ -78,9 +78,10 @@ main{
 
 aside#menu-entrevistas{
     background-color: white;
-    display: inline-block;
+    
     margin: 21px;
     width: 170px;
+    float: left;
 }
 
 aside#menu-entrevistas li{
@@ -107,6 +108,17 @@ h2{
     padding: 8px;
 }
 
+section{
+    display: inline-block;
+    margin: 21px;
+}
+img{
+    width: 50%;
+}
+.topicos{
+    
+    
+}
 
 /*FOOTER*/
 footer{
