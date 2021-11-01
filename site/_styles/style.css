@@ -77,11 +77,12 @@ main{
 }
 
 aside#menu-entrevistas{
+    float: left;
     background-color: white;
     
     margin: 21px;
     width: 170px;
-    float: left;
+    
 }
 
 aside#menu-entrevistas li{
@@ -108,17 +109,39 @@ h2{
     padding: 8px;
 }
 
-section{
+section#noticia-principal{
     display: inline-block;
+    max-width: 740px;
+    background-color: yellowgreen;
+    
+}
+
+section#noticia-principal  img{
+    height: 300px;
+    max-width: 441px;
+    float: left;
+}
+
+section#noticia-principal p{
+    display: inline;
+    text-align: left;
+}
+
+section{
+    display: block;
     margin: 21px;
 }
-img{
-    width: 50%;
+
+div.noticia{
+    text-align: center;
+    background-color: white;
+    width: 300px;
 }
-.topicos{
-    
-    
+.noticia > img{
+    width: 100%;
 }
+
+
 
 /*FOOTER*/
 footer{
