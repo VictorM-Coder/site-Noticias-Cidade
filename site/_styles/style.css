@@ -43,7 +43,7 @@ header{
 
 #logo{
     margin: 13px 21px;
-    width: 110px;
+    width: 100px;
 }
 nav{
     border-top: solid 1px var(--color-text);
@@ -53,7 +53,7 @@ nav{
 
 ul#menu-principal > li{
     display: inline-block;
-    padding: 13px;
+    padding: 8px 13px;
 }
 
 ul#menu-principal li a{
@@ -109,33 +109,44 @@ h2{
     padding: 8px;
 }
 
+section{
+    display: block;
+    margin: 21px;
+    align-items: center;
+}
+
 section#noticia-principal{
     display: inline-block;
     max-width: 740px;
-    background-color: yellowgreen;
-    
 }
 
 section#noticia-principal  img{
-    height: 300px;
+    height: 318px;
     max-width: 441px;
     float: left;
 }
 
-section#noticia-principal p{
-    display: inline;
-    text-align: left;
+section#noticia-principal h3{
+    font: bold 1.5em var(--font-principal);
+    padding: 8px;
 }
 
-section{
-    display: block;
-    margin: 21px;
+div#descricao-principal  > p{
+    font-size: 1.2em;
+    padding: 8px;
+}
+#descricao-principal{
+    display: grid;
+    min-width: 260px;
+    max-width: 441px;
 }
 
 div.noticia{
+    display: inline-block;
     text-align: center;
     background-color: white;
-    width: 300px;
+    max-width: 300px;
+    margin-top: 21px;
 }
 .noticia > img{
     width: 100%;
@@ -150,5 +161,5 @@ footer{
     font: bold 1em  var(--font-principal);
     text-align: center;
     padding: 8px;
-    margin: 21px 0px;
+    margin-top: 21px;
 }
