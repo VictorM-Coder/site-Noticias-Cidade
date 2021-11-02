@@ -25,6 +25,7 @@
 /*CONFIGURAÇÕES GERAIS*/
 a{
     text-decoration: none;
+    color: black;
 }
 
 li{
@@ -62,7 +63,7 @@ ul#menu-principal li a{
 }
 
 ul#menu-principal li:hover{
-    border-bottom: solid 5px var(--color-text);
+    border-bottom: solid 5px var(--color-text); 
 }
 
 #aba-atual{
@@ -71,7 +72,7 @@ ul#menu-principal li:hover{
 
 /*MAIN*/
 main{
-    background-color: burlywood;
+    background-color: #FDFDFD;
     max-width: 1000px;
     margin: auto;
 }
@@ -112,7 +113,7 @@ h2{
 section{
     display: block;
     margin: 21px;
-    align-items: center;
+    text-align: center;
 }
 
 section#noticia-principal{
@@ -139,14 +140,21 @@ div#descricao-principal  > p{
     display: grid;
     min-width: 260px;
     max-width: 441px;
+    text-align: left;
 }
 
 div.noticia{
     display: inline-block;
-    text-align: center;
-    background-color: white;
+    text-align: left;
     max-width: 300px;
-    margin-top: 21px;
+    margin: 21px 5px 0px 5px;
+    padding: 3px;
+    
+}
+
+a.link-noticias:hover h3{
+    text-decoration: underline;
+    
 }
 .noticia > img{
     width: 100%;
