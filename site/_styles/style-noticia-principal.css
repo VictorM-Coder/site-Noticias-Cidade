@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+section#noticia-extenso{
+    max-width: 600px;
+    text-align: left;
+}
+
+p{
+    margin-top: 21px;
+}
+
+img.imagem-noticias{
+    width: 100%;
+}

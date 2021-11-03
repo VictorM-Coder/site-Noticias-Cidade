@@ -4,6 +4,13 @@
     margin: 0px;
     padding: 0px;
 }
+/*IMPORTAÇÕES*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Zen+Old+Mincho:wght@400;700;900&display=swap');
+/*
+'Roboto Slab', serif
+'Zen Old Mincho', serif
+*/
 
 :root{
     /*CORES*/
@@ -19,10 +26,28 @@
     --color-text: #ffffff ;
 
     /*FONTES*/
-    --font-principal: roboto, sans-serif;
+    --font-titulos: Zen old Mincho, sefif;
+    --font-principal: Roboto Slab, serif;
     
 }
 /*CONFIGURAÇÕES GERAIS*/
+h1{
+    font-family: var(--font-principal);
+    font-style: normal;
+    font-size: 2.5em;
+    margin-bottom: 21px;
+}
+
+h2{
+    font-family: var(--font-titulos);
+    font: 400 1.5em var(--font-titulos);
+    text-align: center;
+    color: var(--color-text);
+    margin-top: 55px;
+    background-color: var(--color-principal);
+    padding: 8px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -40,6 +65,7 @@ body{
 /*HEADER*/
 header{
     background-color: var(--color-principal);
+   
 }
 
 #logo{
@@ -101,13 +127,8 @@ aside#menu-entrevistas li:hover{
     color: var(--color-text);
 }
 
-h2{
-    font: bold 1.2em var(--font-principal);
-    text-align: center;
-    color: var(--color-text);
-
-    background-color: var(--color-principal);
-    padding: 8px;
+aside#menu-entrevistas h2{
+    margin-top: 0px;
 }
 
 section{
@@ -166,7 +187,7 @@ a.link-noticias:hover h3{
 footer{
     background-color: var(--color-principal);
     color: var(--color-text);
-    font: bold 1em  var(--font-principal);
+    font: normal 1em  var(--font-principal);
     text-align: center;
     padding: 8px;
     margin-top: 21px;
